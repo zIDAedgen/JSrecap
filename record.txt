@@ -1,1 +1,2 @@
 This is for the test of JavaScipt .
+Some basic feature of the language will be presented.
