@@ -53,3 +53,20 @@ var o = {
 var p = Object.create(o);
 p.a = 38;
 console.log(p.m(1));
+
+var Employee = {
+    company: 'xyz'
+}
+var emp1 = Object.create(Employee);
+delete emp1.company
+console.log(emp1.company);
+
+//Hoisting
+//Only declaration can be hoisted
+console.log(hoisting_0);
+var hoisting_0;
+hoisting_0 = 1;
+
+hoisting_1 = 1;
+console.log(hoisting_1);
+var hoisting_1;
